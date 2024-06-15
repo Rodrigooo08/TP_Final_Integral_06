@@ -4,6 +4,7 @@ class Nivel{
   private int numero;
   private Terreno terreno;
   private Ficha fichas;
+  private Pueblo pueblo;
   
   //constructor/es
   public Nivel(){
