@@ -1,3 +1,10 @@
+//<<<<<<<<<< Updated upstream
+//=======
+////Belgrano personajePrincipal;
+////Enemigo enemigo;
+////Pueblo pueblo;
+////Nivel nivel;
+//>>>>>>>>>> Stashed changes
  private int estado;
  private PImage imagen;
  public void setup(){
