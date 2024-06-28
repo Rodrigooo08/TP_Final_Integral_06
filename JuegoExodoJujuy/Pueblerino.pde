@@ -2,12 +2,12 @@
 //seran NPC que estaran en checksPoin que serviran como punto de resurrecion
 //cuando el personaje prinpipal pierda vidas o tambien apareceran como relleno
 //para hambientar el nivel.. no tendran movimientos activos
-class Pueblo extends GameObject{
+class Pueblerino extends GameObject{
   //atributos
   //hereda todos de las superclases
   
   //constructor
-  public Pueblo(){
+  public Pueblerino(){
   }
   
   //metodos de clase

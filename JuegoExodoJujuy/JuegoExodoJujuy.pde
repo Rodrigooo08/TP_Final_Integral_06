@@ -7,8 +7,10 @@
 //>>>>>>>>>> Stashed changes
  private int estado;
  private PImage imagen;
+ private Escenario escena;
  public void setup(){
    size(1000,560);
+   escena= new Escenario();
    estado = MaquinaEstados.INSTRUCCIONANDO; 
  }
  
@@ -29,7 +31,9 @@
 
      case MaquinaEstados.JUGANDO:
     {
-      background(255);   
+      //background(255); 
+      //frameRate(60);
+      escena.display();
       break;
     }
   }
