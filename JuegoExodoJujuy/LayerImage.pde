@@ -7,7 +7,7 @@ class LayerImage implements IDisplayable {
     this.velocidad=velocidad;
     this.posicion=posicion;
     this.imagen = loadImage(pathImage);
-    this.imagen.resize(width+10,height);
+    this.imagen.resize(width+70,height);
   }
   
   public void display(){
@@ -16,7 +16,7 @@ class LayerImage implements IDisplayable {
   }
   
   public void updatePosition(){
-    this.posicion.x-=(this.velocidad.x* Time.getDeltaTime(frameRate)); 
+    this.posicion.x-=(this.velocidad.x*Time.getDeltaTime(frameRate)); 
     if(this.posicion.x<-width){
       this.posicion.x=width;
     }

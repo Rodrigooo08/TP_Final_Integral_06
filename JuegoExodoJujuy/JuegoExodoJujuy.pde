@@ -32,7 +32,7 @@
      case MaquinaEstados.JUGANDO:
     {
       //background(255); 
-      frameRate(60);
+      //frameRate(60);
       escena.display();
       break;
     }
