@@ -2,9 +2,11 @@
 class Nivel{
   //atributos de clase
   private int numero;
-  private Terreno terreno;
   private Ficha fichas;
-  private Pueblo pueblo;
+  private Pueblerino pueblo;
+  private Plataforma[] plataformas;
+  private Escenario escenario;
+  private Enemigo [] enemigos;
   
   //constructor/es
   public Nivel(){

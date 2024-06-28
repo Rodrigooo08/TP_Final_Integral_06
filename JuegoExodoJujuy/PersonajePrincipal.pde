@@ -1,11 +1,11 @@
 //clase que representa al general manuel belgrano como personaje principal
 //del juego
-class Belgrano extends Personaje implements IMove{
+class PersonajePrincipal extends Personaje implements IMove{
   //atributos
   private int puntaje;//almacena la suma de valores obtenidos por la recoleccion de fichas
   
   //constructor 
-  public Belgrano(){}
+  public PersonajePrincipal(){}
   //metodos de clase
   public void display(){}
   public void mover(){}
